@@ -1,1 +1,93 @@
+body {
+    background-color:lightyellow;
+}
+.navbar-default .navbar-toggle:focus .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+.navbar-brand {
+	font-family: bold;
+	float: left;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 2em;
+	padding-top: 25px;
+}
 
+.container-fluid {
+	background-color:yellow;
+}
+#header-nav {
+	border-radius: 0;
+	border:0;
+}
+p {
+  background-color:grey;
+  margin-bottom: 75px;
+
+}
+h1 {
+  margin-bottom: 75px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: darkblue;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #7d1913;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+    background-color:grey ;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: orange;
+    background-color: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+
+
+#Dosa, #Idli, #Roti {
+    width: 100%;
+    padding: 10px;
+    background-color:yellow;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px white;
+}
